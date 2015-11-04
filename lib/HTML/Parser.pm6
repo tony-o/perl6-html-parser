@@ -1,4 +1,4 @@
-use XML::Document;
+use XML;
 
 role HTML::Parser {
   has XML::Document $.xmldoc;
